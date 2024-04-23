@@ -4,7 +4,7 @@ function App() {
   const [rangeCount, setRangeCount] = useState(8);
   const [password, setPassword] = useState("");
   const [numbers, setNumbers] = useState(true);
-  const [charcter, setCharcter] = useState(false); // Corrected typo in variable name
+  const [charcter, setCharcter] = useState(false); 
 
   const passwordGenerator = useCallback(() => {
     let pass = "";
@@ -33,7 +33,7 @@ function App() {
             <input
               className="w-3/5 h-11 rounded-md outline-none border-2 border-zinc-600 px-2 py-2 text-2xl"
               type="text"
-              value={password} // Added value attribute to display generated password
+              value={password} 
               readOnly 
             />
           </div>
